@@ -56,6 +56,13 @@ public class MyClient {
 							  "</message>";
 			session.write(stanzar4);
 			
+			String stanzar6=
+					  "<message from=\"testuser@test3.org\" to=\"beta@skh.whu.edu.cn\" type=\"chat\">"+
+							    "<body>Who are you?</body>"+
+							    "<subject>Query</subject>"+
+							  "</message>";
+			session.write(stanzar6);
+			
 			String stanzar5="</stream:stream>";
 			session.write(stanzar5);	
 		}	
