@@ -18,7 +18,7 @@ public class MyClient2 {
 		
 	}
 	
-	//
+	//demo
 	public void cilentconnect(){
 		//1.创建ioservice
 		connector = new NioSocketConnector();
