@@ -63,8 +63,7 @@ public class MyClient {
 							  "</message>";
 			session.write(stanzar10);
 			
-			//new line
-			
+			//master
 			String stanzar5="</stream:stream>";
 			session.write(stanzar5);	
 		}	
